@@ -1,0 +1,25 @@
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/cspell4/cspell.schema.json",
+    "name": "pokeapi",
+    "words": [
+        "atain",
+        "bulbapedia",
+        "commitlint",
+        "decimetres",
+        "overworld",
+        "poffins",
+        "pokeapi",
+        "pokéapi",
+        "pokeball",
+        "pokéball",
+        "pokeathlon",
+        "pokéathlon",
+        "pokeblocks",
+        "pokéblocks",
+        "pokedex",
+        "pokédex",
+        "pokedexes",
+        "pokédexes",
+        "vnus"
+    ]
+}
