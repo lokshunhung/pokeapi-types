@@ -37,5 +37,8 @@
     },
     "commitlint": {
         "extends": "@commitlint/config-conventional"
-    }
+    },
+    "files": [
+        "dist/**"
+    ]
 }
