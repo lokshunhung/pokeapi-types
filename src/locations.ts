@@ -9,7 +9,7 @@ export interface Location {
     region: NamedAPIResource;
     /** The name of this resource listed in different languages. */
     names: Name[];
-    /** A list of game indices relevent to this location by generation. */
+    /** A list of game indices relevant to this location by generation. */
     game_indices: GenerationGameIndex[];
     /** (LocationArea[]) Areas that can be found within this location. */
     areas: NamedAPIResource[];

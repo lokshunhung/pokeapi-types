@@ -29,7 +29,7 @@ export interface Item {
     effect_entries: VerboseEffect[];
     /** The flavor text of this ability listed in different languages. */
     flavor_text_entries: VersionGroupFlavorText[];
-    /** A list of game indices relevent to this item by generation. */
+    /** A list of game indices relevant to this item by generation. */
     game_indices: GenerationGameIndex[];
     /** The name of this item listed in different languages. */
     names: Name[];

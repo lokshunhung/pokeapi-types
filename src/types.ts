@@ -7,7 +7,7 @@ export interface Type {
     name: string;
     /** A detail of how effective this type is toward others and vice versa. */
     damage_relations: TypeRelations;
-    /** A list of game indices relevent to this item by generation. */
+    /** A list of game indices relevant to this item by generation. */
     game_indices: GenerationGameIndex[];
     /** (Generation) The generation this type was introduced in. */
     generation: NamedAPIResource;

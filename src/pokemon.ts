@@ -197,7 +197,7 @@ export interface Pokemon {
     abilities: PokemonAbility[];
     /** (PokemonForm[]) A list of forms this Pokémon can take on. */
     forms: NamedAPIResource[];
-    /** A list of game indices relevent to Pokémon item by generation. */
+    /** A list of game indices relevant to Pokémon item by generation. */
     game_indices: VersionGameIndex[];
     /** A list of items this Pokémon may be holding when encountered. */
     held_items: PokemonHeldItem[];
