@@ -3,9 +3,10 @@
         "target": "ES2015",
         "module": "ES2015",
         "lib": ["ES2020"],
+        "outDir": "./tmp/",
         "allowJs": true,
         "checkJs": true,
-        "declaration": true,
+        "declaration": false,
         "isolatedModules": true,
         "strict": true,
         "noUncheckedIndexedAccess": true,
@@ -13,5 +14,6 @@
         "allowSyntheticDefaultImports": false,
         "esModuleInterop": false,
         "forceConsistentCasingInFileNames": true
-    }
+    },
+    "exclude": ["./node_modules/", "./dist/", "./tmp/"]
 }
