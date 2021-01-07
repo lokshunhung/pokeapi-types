@@ -1,6 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/cspell4/cspell.schema.json",
     "name": "pokeapi",
+    "ignorePaths": ["**/node_modules/**", "**/dist/**", "**/tmp/**", "yarn.lock"],
     "words": [
         "atain",
         "bulbapedia",
