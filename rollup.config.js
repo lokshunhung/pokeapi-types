@@ -14,6 +14,7 @@ const pluginWriteEmptyIndexJS = () => ({
         if (!isWrite) return;
         if (!options.dir) throw new Error('Cannot write index.js because `options.output.dir` is not set.');
         const outputPath = path.join(options.dir, 'index.js');
+        await fs.promises.mkdir(options.dir, { recursive: true });
         await fs.promises.writeFile(outputPath, 'module.exports = {};', { encoding: 'utf8' });
     },
 });
