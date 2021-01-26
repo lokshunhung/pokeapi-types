@@ -1,4 +1,4 @@
-import { Effect, FlavorText, NamedAPIResource } from './utility';
+import type { Effect, FlavorText, NamedAPIResource } from './utility';
 
 export interface ContestType {
     /** The identifier for this resource. */

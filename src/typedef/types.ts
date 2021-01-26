@@ -1,4 +1,4 @@
-import { GenerationGameIndex, Name, NamedAPIResource } from './utility';
+import type { GenerationGameIndex, Name, NamedAPIResource } from './utility';
 
 export interface Type {
     /** The identifier for this resource. */

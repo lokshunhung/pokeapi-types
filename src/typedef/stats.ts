@@ -1,4 +1,4 @@
-import { APIResource, Name, NamedAPIResource } from './utility';
+import type { APIResource, Name, NamedAPIResource } from './utility';
 
 export interface Stat {
     /** The identifier for this resource. */
