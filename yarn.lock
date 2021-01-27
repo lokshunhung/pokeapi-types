@@ -1250,10 +1250,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-vnus@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/eslint-config-vnus/-/eslint-config-vnus-0.0.4.tgz#95686b43bff7fbde943e4102e5e4e333516c5157"
-  integrity sha512-Io0gLYPKFMEeDqsbidYnZEQLlr/psZRZQ+wn2DpCmutHwXoi+hmOQ51NgZQsUHhDwQhqLt1Rb3f1D+iznNH5DA==
+eslint-config-vnus@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/eslint-config-vnus/-/eslint-config-vnus-0.0.7.tgz#a573c57a81d80661f44f233352010f06f660b976"
+  integrity sha512-SgX+QoELFQfcmYOkm2bxKsYGCTpiMYW4oKgJm5ZIDo8Qai8WqRW0o2WoMMjvRHuQTq0W8olKfv+0dGxJ5vDZsw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.14.1"
     "@typescript-eslint/parser" "^4.14.1"
