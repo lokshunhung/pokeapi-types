@@ -15,7 +15,7 @@
         "@commitlint/cli": "11.0.0",
         "@commitlint/config-conventional": "11.0.0",
         "@types/node": "14.14.22",
-        "@vnus/prettier-config": "0.0.1",
+        "@vnus/prettier-config": "0.0.2",
         "cspell": "5.2.4",
         "eslint": "7.18.0",
         "eslint-config-vnus": "0.0.7",
