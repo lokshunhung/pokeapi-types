@@ -174,10 +174,10 @@
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-11.0.0.tgz#719cf05fcc1abb6533610a2e0f5dd1e61eac14fe"
   integrity sha512-VoNqai1vR5anRF5Tuh/+SWDFk7xi7oMwHrHrbm1BprYXjB2RJsWLhUrStMssDxEl5lW/z3EUdg8RvH/IUBccSQ==
 
-"@cspell/cspell-bundled-dicts@^5.2.2":
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/@cspell/cspell-bundled-dicts/-/cspell-bundled-dicts-5.2.2.tgz#1d0179bf1ef14e2dd9c2aacb78e9611dffaa65f0"
-  integrity sha512-EbdWSEgpcs3OFzb5nsiVXeribV6VyFtCvo5BSc2zlmAGwhBctUBS/owAVG5Yevh1EfjzSD83UJdHzRWMGqDWmw==
+"@cspell/cspell-bundled-dicts@^5.2.4":
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/@cspell/cspell-bundled-dicts/-/cspell-bundled-dicts-5.2.4.tgz#dd0e161bb2203f19a2dd9358c3eb9daaffb7a336"
+  integrity sha512-IVoTVdFIWnWmJYBwjbsYtFyH6fD8bClDZrFpUa/a84vXVopcH1ZjpwotDsHO+P3O1GCFTacT1Z2Lyh56xowmxw==
   dependencies:
     "@cspell/dict-aws" "^1.0.13"
     "@cspell/dict-bash" "^1.0.11"
@@ -212,6 +212,11 @@
     "@cspell/dict-scala" "^1.0.21"
     "@cspell/dict-software-terms" "^1.0.25"
     "@cspell/dict-typescript" "^1.0.16"
+
+"@cspell/cspell-types@^5.2.4":
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/@cspell/cspell-types/-/cspell-types-5.2.4.tgz#361fdc6c008b82a5c0dfd6c1fd2bee2cb7255b4b"
+  integrity sha512-luv2hzoKdDrNs2LPDHuS+r9hOniZlYiJJU8og8ftGyuwjytnSaTUvtY8SzFqquKQJ4+rty6AF2RS/foQ69s/2Q==
 
 "@cspell/dict-aws@^1.0.13":
   version "1.0.13"
@@ -1058,12 +1063,13 @@ cspell-io@^5.2.0:
     iconv-lite "^0.6.2"
     iterable-to-stream "^1.0.1"
 
-cspell-lib@^5.2.2:
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/cspell-lib/-/cspell-lib-5.2.2.tgz#1d8eb0745fa6da8f2798ac1432cd33df7ffc425a"
-  integrity sha512-9Y50eGBcsCMEesGiuocGYB2/5Cxjfr+wGYysCqztD+OL4Orfh6Odr3fIL+Epzpg1yCcGVNrJjD/Uj8RnMPbsjg==
+cspell-lib@^5.2.4:
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/cspell-lib/-/cspell-lib-5.2.4.tgz#8296c5045fa7c4072dcd8b8995e1ae83949c5873"
+  integrity sha512-DR0ZSNCwurHCobO5QDYyEuCCmkXRutQvfoK18wICuiUElD4WkgksuWPItRr2s5901t/QvImh349U+2UuO9qwCA==
   dependencies:
-    "@cspell/cspell-bundled-dicts" "^5.2.2"
+    "@cspell/cspell-bundled-dicts" "^5.2.4"
+    "@cspell/cspell-types" "^5.2.4"
     comment-json "^4.1.0"
     configstore "^5.0.1"
     cosmiconfig "^7.0.0"
@@ -1084,16 +1090,16 @@ cspell-trie-lib@^5.2.2:
     fs-extra "^9.1.0"
     gensequence "^3.1.1"
 
-cspell@5.2.2:
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/cspell/-/cspell-5.2.2.tgz#d936eaf7dc8011b01aa04b9ff5e2c822e2e7abe3"
-  integrity sha512-xNdUm05DH8zydyEzfunMMh+R4kOhCV71mlQUZZyPupSLK3V5gO3XEopIxLJm/+7YbJZAF3Rkq5OJrzWm1YxWpA==
+cspell@5.2.4:
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/cspell/-/cspell-5.2.4.tgz#d28b6a6ff93d1824c560a2c6f5e4d9000227a12a"
+  integrity sha512-ONMoI2Yf9of662Ac8Azg+EKXWSDxZIjSWGtkg6FNQOCzD0AgO6ZJv2ti9mHuSZ9rovfaPJUocmiTJSl9TncK6g==
   dependencies:
     chalk "^4.1.0"
     commander "^7.0.0"
     comment-json "^4.1.0"
     cspell-glob "^5.2.0"
-    cspell-lib "^5.2.2"
+    cspell-lib "^5.2.4"
     fs-extra "^9.1.0"
     get-stdin "^8.0.0"
     glob "^7.1.6"
@@ -1250,10 +1256,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-vnus@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/eslint-config-vnus/-/eslint-config-vnus-0.0.4.tgz#95686b43bff7fbde943e4102e5e4e333516c5157"
-  integrity sha512-Io0gLYPKFMEeDqsbidYnZEQLlr/psZRZQ+wn2DpCmutHwXoi+hmOQ51NgZQsUHhDwQhqLt1Rb3f1D+iznNH5DA==
+eslint-config-vnus@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/eslint-config-vnus/-/eslint-config-vnus-0.0.7.tgz#a573c57a81d80661f44f233352010f06f660b976"
+  integrity sha512-SgX+QoELFQfcmYOkm2bxKsYGCTpiMYW4oKgJm5ZIDo8Qai8WqRW0o2WoMMjvRHuQTq0W8olKfv+0dGxJ5vDZsw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.14.1"
     "@typescript-eslint/parser" "^4.14.1"
@@ -2765,10 +2771,10 @@ rollup-plugin-dts@2.0.1:
   optionalDependencies:
     "@babel/code-frame" "^7.10.4"
 
-rollup@2.38.0:
-  version "2.38.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.38.0.tgz#57942d5a10826cb12ed1f19c261f774efa502d2d"
-  integrity sha512-ay9zDiNitZK/LNE/EM2+v5CZ7drkB2xyDljvb1fQJCGnq43ZWRkhxN145oV8GmoW1YNi4sA/1Jdkr2LfawJoXw==
+rollup@2.38.1:
+  version "2.38.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.38.1.tgz#ecea0f7ce6ef2c1f023fdb79524eb7aeb670ea79"
+  integrity sha512-q07T6vU/V1kqM8rGRRyCgEvIQcIAXoKIE5CpkYAlHhfiWM1Iuh4dIPWpIbqFngCK6lwAB2aYHiUVhIbSWHQWhw==
   optionalDependencies:
     fsevents "~2.1.2"
 
