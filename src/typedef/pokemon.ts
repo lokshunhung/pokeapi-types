@@ -8,7 +8,7 @@ import type {
     VerboseEffect,
     VersionEncounterDetail,
     VersionGameIndex,
-} from './utility';
+} from "./utility";
 
 export interface Ability {
     /** The identifier for this resource. */

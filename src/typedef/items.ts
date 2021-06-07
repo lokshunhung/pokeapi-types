@@ -8,7 +8,7 @@ import type {
     NamedAPIResource,
     VerboseEffect,
     VersionGroupFlavorText,
-} from './utility';
+} from "./utility";
 
 export interface Item {
     /** The identifier for this resource. */

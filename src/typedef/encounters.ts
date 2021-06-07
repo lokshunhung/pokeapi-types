@@ -1,4 +1,4 @@
-import type { Name, NamedAPIResource } from './utility';
+import type { Name, NamedAPIResource } from "./utility";
 
 export interface EncounterMethod {
     /** The identifier for this resource. */

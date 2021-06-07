@@ -1,4 +1,4 @@
-import type { NamedAPIResource } from './utility';
+import type { NamedAPIResource } from "./utility";
 
 export interface Machine {
     /** The identifier for this resource. */

@@ -1,4 +1,4 @@
-import type { Description, Name, NamedAPIResource } from './utility';
+import type { Description, Name, NamedAPIResource } from "./utility";
 
 export interface Generation {
     /** The identifier for this resource. */

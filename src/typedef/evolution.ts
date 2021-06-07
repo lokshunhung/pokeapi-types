@@ -1,4 +1,4 @@
-import type { Name, NamedAPIResource } from './utility';
+import type { Name, NamedAPIResource } from "./utility";
 
 export interface EvolutionChain {
     /** The identifier for this resource. */

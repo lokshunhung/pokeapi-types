@@ -1,8 +1,8 @@
 const config = {
-    ignorePatterns: ['**/dist/**', '**/tmp/**'],
-    extends: ['vnus/presets/library'],
+    ignorePatterns: ["**/dist/**", "**/tmp/**"],
+    extends: ["vnus/presets/library"],
     parserOptions: {
-        project: './tsconfig.json',
+        project: "./tsconfig.json",
         tsconfigRootDir: __dirname,
     },
 };

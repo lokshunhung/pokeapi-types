@@ -1,5 +1,5 @@
-import type { AbilityEffectChange } from './pokemon';
-import type { APIResource, Description, MachineVersionDetail, Name, NamedAPIResource, VerboseEffect } from './utility';
+import type { AbilityEffectChange } from "./pokemon";
+import type { APIResource, Description, MachineVersionDetail, Name, NamedAPIResource, VerboseEffect } from "./utility";
 
 export interface Move {
     /** The identifier for this resource. */

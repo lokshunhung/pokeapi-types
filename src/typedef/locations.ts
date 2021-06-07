@@ -1,4 +1,4 @@
-import type { GenerationGameIndex, Name, NamedAPIResource, VersionEncounterDetail } from './utility';
+import type { GenerationGameIndex, Name, NamedAPIResource, VersionEncounterDetail } from "./utility";
 
 export interface Location {
     /** The identifier for this resource. */
