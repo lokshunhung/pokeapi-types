@@ -17,7 +17,7 @@
         "@types/node": "15.12.1",
         "@vnus/prettier-config": "0.0.3",
         "cspell": "5.6.0",
-        "eslint": "7.27.0",
+        "eslint": "7.28.0",
         "eslint-config-vnus": "0.0.7",
         "husky": "3.1.0",
         "lint-staged": "11.0.0",
