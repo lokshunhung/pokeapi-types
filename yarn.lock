@@ -1083,10 +1083,10 @@ cspell-io@^5.6.2:
     iconv-lite "^0.6.3"
     iterable-to-stream "^2.0.0"
 
-cspell-lib@^5.6.2:
-  version "5.6.2"
-  resolved "https://registry.yarnpkg.com/cspell-lib/-/cspell-lib-5.6.2.tgz#52fd23e26f118db1e15a981dd6c528a3cc7cc788"
-  integrity sha512-BjYSw2LmKTz1zZWN71SSDHdQGamst4zLx7WQUg1NMTPCyBKj2Iv1z6gkp5wr/zjsYyNFtpdbBGRNnrU8rMupww==
+cspell-lib@^5.6.3:
+  version "5.6.3"
+  resolved "https://registry.yarnpkg.com/cspell-lib/-/cspell-lib-5.6.3.tgz#5e96c7cebbf6a14729f9c0f974c2973824ca8c7d"
+  integrity sha512-tE1m6BtdFaGf1cLdGogbUqJ7ztS5HQZCWmhmWyLrd+H4H8BzrquSH3tKdP4EE6m7cI8e30oYbxmPVLTBjL+jfw==
   dependencies:
     "@cspell/cspell-bundled-dicts" "^5.6.2"
     "@cspell/cspell-types" "^5.6.2"
@@ -1096,7 +1096,7 @@ cspell-lib@^5.6.2:
     cosmiconfig "^7.0.0"
     cspell-glob "^5.6.2"
     cspell-io "^5.6.2"
-    cspell-trie-lib "^5.6.2"
+    cspell-trie-lib "^5.6.3"
     find-up "^5.0.0"
     fs-extra "^10.0.0"
     gensequence "^3.1.1"
@@ -1105,25 +1105,25 @@ cspell-lib@^5.6.2:
     resolve-global "^1.0.0"
     vscode-uri "^3.0.2"
 
-cspell-trie-lib@^5.6.2:
-  version "5.6.2"
-  resolved "https://registry.yarnpkg.com/cspell-trie-lib/-/cspell-trie-lib-5.6.2.tgz#aed9fe2d0ed1cea1c24575ab3405119b498e67f4"
-  integrity sha512-zZR28usOHtKYiSiuLE9/FgO5WAJDgTYjlOucxbGsY5CH4x9I0CqWADl0viLO4Tj8Y+COl6MfyE3IpgRkbQKmrQ==
+cspell-trie-lib@^5.6.3:
+  version "5.6.3"
+  resolved "https://registry.yarnpkg.com/cspell-trie-lib/-/cspell-trie-lib-5.6.3.tgz#84cb8ac200f1f5042ffa3aaa782eb6e2c58ad12d"
+  integrity sha512-YN1ecHbqEzuaile3K053+D7cuROvQIJ3oHQsd7xr8yY3fu3+H63PDU9CUxdKb4Znk41PuIvk75PENDbggNRDzg==
   dependencies:
     fs-extra "^10.0.0"
     gensequence "^3.1.1"
 
-cspell@5.6.2:
-  version "5.6.2"
-  resolved "https://registry.yarnpkg.com/cspell/-/cspell-5.6.2.tgz#65c0bb05e2de3da6e0772384aa2206e7f2906af2"
-  integrity sha512-BY0X2DuNs/PMjH+3dZXUrtFPL9WwrBMdvRAQYmKDvKoLf2A7JB4/JUQPh+2RoJZ3TfKqDiyMgUA/rxDwRm4/GQ==
+cspell@5.6.3:
+  version "5.6.3"
+  resolved "https://registry.yarnpkg.com/cspell/-/cspell-5.6.3.tgz#b7a116fc551f232418ef65887f6b2f893ecc3c95"
+  integrity sha512-UVPz93PnbtyABKD3eoQuwK8cGjmULcl3B+WPS7rdAYq8CFtswZwFuNZr/wDLZT+lrqJqga3enVnI/I4Jfpdgpg==
   dependencies:
     "@cspell/cspell-types" "^5.6.2"
     chalk "^4.1.1"
     commander "^7.2.0"
     comment-json "^4.1.0"
     cspell-glob "^5.6.2"
-    cspell-lib "^5.6.2"
+    cspell-lib "^5.6.3"
     fs-extra "^10.0.0"
     get-stdin "^8.0.0"
     glob "^7.1.7"
