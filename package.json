@@ -13,7 +13,7 @@
     },
     "devDependencies": {
         "@commitlint/cli": "13.1.0",
-        "@commitlint/config-conventional": "13.1.0",
+        "@commitlint/config-conventional": "13.2.0",
         "@types/node": "16.10.1",
         "@vnus/prettier-config": "0.0.3",
         "cspell": "5.10.1",
