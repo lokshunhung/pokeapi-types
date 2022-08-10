@@ -14,7 +14,7 @@
     "devDependencies": {
         "@commitlint/cli": "17.0.3",
         "@commitlint/config-conventional": "17.0.3",
-        "@types/node": "18.6.5",
+        "@types/node": "18.7.1",
         "@vnus/prettier-config": "0.0.3",
         "cspell": "6.6.0",
         "eslint": "7.32.0",
