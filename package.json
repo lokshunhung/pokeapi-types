@@ -16,7 +16,7 @@
         "@commitlint/config-conventional": "17.4.4",
         "@types/node": "18.14.1",
         "@vnus/prettier-config": "0.0.3",
-        "cspell": "6.26.3",
+        "cspell": "6.27.0",
         "eslint": "7.32.0",
         "eslint-config-vnus": "0.0.7",
         "husky": "3.1.0",
