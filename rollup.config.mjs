@@ -2,7 +2,13 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import * as url from "url";
 import pluginDTS from "rollup-plugin-dts";
+
+/** @type {string} */
+const __filename = url.fileURLToPath(import.meta.url);
+/** @type {string} */
+const __dirname = path.dirname(__filename);
 
 /** @param {string[]} p */
 const joinRoot = (...p) => path.join(__dirname, ...p);
