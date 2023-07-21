@@ -287,6 +287,20 @@ export interface PokemonSprites {
     back_female: string;
     /** The shiny female depiction of this Pokémon from the back in battle. */
     back_shiny_female: string;
+    /** Undocumented property. Might contain keys = "dream_world", "home", "official-artwork". */
+    other?: {
+        [key in string]?: {
+            [spriteName in string]?: string | null | undefined;
+        };
+    };
+    /** Undocumented property. Might contain keys = "generation-i", "generation-ii", ... */
+    versions?: {
+        [version in string]?: {
+            [gameTitle in string]?: {
+                [spriteName in string]?: string | undefined;
+            };
+        };
+    };
 }
 
 export interface LocationAreaEncounter {
