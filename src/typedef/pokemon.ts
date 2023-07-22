@@ -290,14 +290,14 @@ export interface PokemonSprites {
     /** Undocumented property. Might contain keys = "dream_world", "home", "official-artwork". */
     other?: {
         [key in string]?: {
-            [spriteName in string]?: string | null | undefined;
+            [spriteName in string]?: string | null;
         };
     };
     /** Undocumented property. Might contain keys = "generation-i", "generation-ii", ... */
     versions?: {
         [version in string]?: {
             [gameTitle in string]?: {
-                [spriteName in string]?: string | undefined;
+                [spriteName in string]?: string;
             };
         };
     };
