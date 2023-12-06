@@ -23,7 +23,7 @@
         "prettier": "3.1.0",
         "rollup": "3.29.4",
         "rollup-plugin-dts": "5.3.1",
-        "typescript": "5.3.2"
+        "typescript": "5.3.3"
     },
     "prettier": "@vnus/prettier-config",
     "husky": {
