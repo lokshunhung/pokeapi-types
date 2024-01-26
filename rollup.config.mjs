@@ -2,6 +2,7 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import * as prettier from "prettier";
 import * as url from "url";
 import pluginDTS from "rollup-plugin-dts";
 
@@ -25,6 +26,16 @@ const pluginWriteEmptyIndexJS = () => ({
     },
 });
 
+/** @returns {import('rollup').Plugin} */
+const pluginFormatOutput = () => ({
+    name: "format-output",
+    async renderChunk(code, chunk, options, meta) {
+        const config = await prettier.resolveConfig(__dirname);
+        const output = await prettier.format(code, { ...config, filepath: "_.ts" });
+        return output;
+    },
+});
+
 /** @type {import('rollup').RollupOptions} */
 const config = {
     input: joinRoot("./src/index.ts"),
@@ -39,6 +50,7 @@ const config = {
             },
         }),
         pluginWriteEmptyIndexJS(),
+        pluginFormatOutput(),
     ],
 };
 
