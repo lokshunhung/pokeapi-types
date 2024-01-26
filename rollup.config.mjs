@@ -30,8 +30,8 @@ const pluginWriteEmptyIndexJS = () => ({
 const pluginFormatOutput = () => ({
     name: "format-output",
     async renderChunk(code, chunk, options, meta) {
-        const config = await prettier.resolveConfig(__dirname);
-        const output = await prettier.format(code, { ...config, filepath: "_.ts" });
+        const config = await prettier.resolveConfig(__filename);
+        const output = await prettier.format(code, { ...config, filepath: "_.d.ts" });
         return output;
     },
 });
