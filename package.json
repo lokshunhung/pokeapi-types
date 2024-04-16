@@ -12,7 +12,7 @@
         "bundle": "rollup --config"
     },
     "devDependencies": {
-        "@commitlint/cli": "19.2.1",
+        "@commitlint/cli": "19.2.2",
         "@commitlint/config-conventional": "19.2.2",
         "@types/node": "20.12.7",
         "@vnus/prettier-config": "0.0.3",
