@@ -10,12 +10,12 @@
     "@babel/highlight" "^7.23.4"
     chalk "^2.4.2"
 
-"@babel/code-frame@^7.27.1":
-  version "7.27.1"
-  resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.27.1.tgz#200f715e66d52a23b221a9435534a91cc13ad5be"
-  integrity sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==
+"@babel/code-frame@^7.29.0":
+  version "7.29.0"
+  resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.29.0.tgz#7cd7a59f15b3cc0dcd803038f7792712a7d0b15c"
+  integrity sha512-9NhCeYjq9+3uxgdtp20LSiJXJvN0FeCtNGpJxuMFZ1Kv3cWUNb6DOhJwUvcVCzKGR66cw4njwM6hrJLqgOwbcw==
   dependencies:
-    "@babel/helper-validator-identifier" "^7.27.1"
+    "@babel/helper-validator-identifier" "^7.28.5"
     js-tokens "^4.0.0"
     picocolors "^1.1.1"
 
@@ -24,10 +24,10 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.22.20.tgz#c4ae002c61d2879e724581d96665583dbc1dc0e0"
   integrity sha512-Y4OZ+ytlatR8AI+8KZfKuL5urKp7qey08ha31L8b3BwewJAoJamTzyvxPR/5D+KkdJCGPq/+8TukHBlY10FX9A==
 
-"@babel/helper-validator-identifier@^7.27.1":
-  version "7.27.1"
-  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.27.1.tgz#a7054dcc145a967dd4dc8fee845a57c1316c9df8"
-  integrity sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==
+"@babel/helper-validator-identifier@^7.28.5":
+  version "7.28.5"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz#010b6938fab7cb7df74aa2bbc06aa503b8fe5fb4"
+  integrity sha512-qSs4ifwzKJSV39ucNjsvc6WVHs6b7S03sOh2OcHF9UHfVPqWWALUsNUVzhSBiItjRZoLHx7nIarVjqKVusUZ1Q==
 
 "@babel/highlight@^7.23.4":
   version "7.23.4"
@@ -625,10 +625,39 @@
   resolved "https://registry.yarnpkg.com/@cspell/url/-/url-9.7.0.tgz#189d923210a4d018d503b0be374ad19ba31f69ae"
   integrity sha512-ZaaBr0pTvNxmyUbIn+nVPXPr383VqJzfUDMWicgTjJIeo2+T2hOq2kNpgpvTIrWtZrsZnSP8oXms1+sKTjcvkw==
 
-"@jridgewell/sourcemap-codec@^1.5.5":
+"@jridgewell/gen-mapping@^0.3.5":
+  version "0.3.13"
+  resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz#6342a19f44347518c93e43b1ac69deb3c4656a1f"
+  integrity sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==
+  dependencies:
+    "@jridgewell/sourcemap-codec" "^1.5.0"
+    "@jridgewell/trace-mapping" "^0.3.24"
+
+"@jridgewell/remapping@^2.3.5":
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/@jridgewell/remapping/-/remapping-2.3.5.tgz#375c476d1972947851ba1e15ae8f123047445aa1"
+  integrity sha512-LI9u/+laYG4Ds1TDKSJW2YPrIlcVYOwi2fUC6xB43lueCjgxV4lffOCZCtYFiH6TNOX+tQKXx97T4IKHbhyHEQ==
+  dependencies:
+    "@jridgewell/gen-mapping" "^0.3.5"
+    "@jridgewell/trace-mapping" "^0.3.24"
+
+"@jridgewell/resolve-uri@^3.1.0":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz#7a0ee601f60f99a20c7c7c5ff0c80388c1189bd6"
+  integrity sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==
+
+"@jridgewell/sourcemap-codec@^1.4.14", "@jridgewell/sourcemap-codec@^1.5.0", "@jridgewell/sourcemap-codec@^1.5.5":
   version "1.5.5"
   resolved "https://registry.yarnpkg.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz#6912b00d2c631c0d15ce1a7ab57cd657f2a8f8ba"
   integrity sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==
+
+"@jridgewell/trace-mapping@^0.3.24":
+  version "0.3.31"
+  resolved "https://registry.yarnpkg.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz#db15d6781c931f3a251a3dac39501c98a6082fd0"
+  integrity sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==
+  dependencies:
+    "@jridgewell/resolve-uri" "^3.1.0"
+    "@jridgewell/sourcemap-codec" "^1.4.14"
 
 "@rollup/rollup-android-arm-eabi@4.59.0":
   version "4.59.0"
@@ -1064,6 +1093,11 @@ conventional-commits-parser@^6.3.0:
   dependencies:
     "@simple-libs/stream-utils" "^1.2.0"
     meow "^13.0.0"
+
+convert-source-map@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-2.0.0.tgz#4b560f649fc4e918dd0ab75cf4961e8bc882d82a"
+  integrity sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==
 
 core-util-is@^1.0.3:
   version "1.0.3"
@@ -2291,14 +2325,17 @@ rfdc@^1.4.1:
   resolved "https://registry.yarnpkg.com/rfdc/-/rfdc-1.4.1.tgz#778f76c4fb731d93414e8f925fbecf64cce7f6ca"
   integrity sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA==
 
-rollup-plugin-dts@6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-dts/-/rollup-plugin-dts-6.3.0.tgz#9de66054358db8325c178f44b2be7e564e27f8d0"
-  integrity sha512-d0UrqxYd8KyZ6i3M2Nx7WOMy708qsV/7fTHMHxCMCBOAe3V/U7OMPu5GkX8hC+cmkHhzGnfeYongl1IgiooddA==
+rollup-plugin-dts@6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-dts/-/rollup-plugin-dts-6.4.0.tgz#31503698784d178abd7fec65e3cecb8eb66ea7d1"
+  integrity sha512-2i00A5UoPCoDecLEs13Eu105QegSGfrbp1sDeUj/54LKGmv6XFHDxWKC6Wsb4BobGUWYVCWWjmjAc8bXXbXH/Q==
   dependencies:
+    "@jridgewell/remapping" "^2.3.5"
+    "@jridgewell/sourcemap-codec" "^1.5.5"
+    convert-source-map "^2.0.0"
     magic-string "^0.30.21"
   optionalDependencies:
-    "@babel/code-frame" "^7.27.1"
+    "@babel/code-frame" "^7.29.0"
 
 rollup@4.59.0:
   version "4.59.0"
